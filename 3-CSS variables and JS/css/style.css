@@ -1,0 +1,37 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    background-color: #193549;
+    text-align: center;
+    color: #ffffff;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+h1 {
+    font-family: 'Helvetica neue', sans-serif;
+    font-size: 4rem;
+}
+
+.textH1 {
+    color: var(--base);
+}
+
+.controls {
+    margin: 50px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    font-weight: lighter;
+}
+
+input {
+    width: 100px;
+}
